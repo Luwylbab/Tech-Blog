@@ -1,24 +1,83 @@
-header, .post:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+body {
+  background-color: #c8e2b4;
 }
 
-.no-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: #1b89bc;
+header {
+  background-color: rgb(34, 0, 0);
+}
+
+header h1 {
+  background-color: #c8e2b4;
+  color: rgb(34, 0, 0);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+a {
+  color: rgb(34, 0, 0);
   text-decoration: none;
-  font-size: 100%;
 }
 
-.no-button:hover {
-  color: #065b83;
+a:hover {
+  color: rgba(34, 0, 0, 0.649)
+}
+
+.nav {
+  color:#c8e2b4;
+  font-size: 30px;
+}
+
+.nav:hover {
+  color: #c8e2b4ce;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.post {
+  background-color: #a7cf89;
+  margin: 15px;
+  border: 2px solid rgb(34, 0, 0);
+  border-top: 10px solid rgb(34, 0, 0);
+}
+
+.postTitle {
+  color: #c8e2b4;
+  background-color: rgb(34, 0, 0);
+  margin-left: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 40px;
+}
+
+.postTitle:hover {
+  color: #7ba25c;
+  font-size: 45px;
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.postInfo {
+  color: rgb(34, 0, 0);
+  align-content: center;
+}
+
+.postContent{
+  font-size: 25px;
+}
+
+.comment {
+  background-color: #a7cf89;
+  border: 2px solid rgb(34, 0, 0);
+  margin: 15px 10px 15px 10px;
+}
+
+.commentDesc {
+  margin-left: 10px;
+}
+
+.commentText {
+  margin-left: 35px;
 }
