@@ -1,12 +1,12 @@
-const newFormHandler = async (event) => {
+const editPostHandler = async (event) => {
     event.preventDefault();
   
     const id = event.target.getAttribute('data-id');
-    const name = document.querySelector('#project-name').value.trim();
-    const description = document.querySelector('#project-desc').value.trim();
+    const name = document.querySelector('#post-name').value.trim();
+    const description = document.querySelector('#post-desc').value.trim();
   
     if (name && description && id) {
-      const response = await fetch(`/api/projects/${id}`, {
+      const response = await fetch(`/api/posts/${id}`, {
         method: 'PUT',
         body: JSON.stringify({ name, description }),
         headers: {
@@ -26,6 +26,6 @@ const newFormHandler = async (event) => {
   };
   
   document
-    .querySelector('.edit-project-form')
-    .addEventListener('submit', delButtonHandler);
+    .querySelector('.edit-post-form')
+    .addEventListener('submit', editPostHandler);
   
