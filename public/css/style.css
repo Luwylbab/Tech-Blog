@@ -81,3 +81,32 @@ a:hover {
 .commentText {
   margin-left: 35px;
 }
+
+.edit-btn {
+  margin-bottom: 45px;
+  background-color: #7ba25c;
+}
+
+.edit-btn:hover {
+  background-color: #a7cf89;
+}
+
+.comment-btn {
+  background-color: #7ba25c;
+  padding: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.comment-btn:hover {
+  background-color: #a7cf89;
+}
+
+.post-title {
+  text-decoration: underline;
+  font-size: 60px;
+}
+
+.post-desc {
+  font-size: 28px;
+}
