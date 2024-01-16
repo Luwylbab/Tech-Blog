@@ -110,3 +110,8 @@ a:hover {
 .post-desc {
   font-size: 28px;
 }
+
+.cur-posts {
+  font-size: 45px;
+  text-decoration: underline;
+}
